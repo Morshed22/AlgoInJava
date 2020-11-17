@@ -12,5 +12,14 @@ public class App {
 
         System.out.println();
         System.out.println(heap.getMax());
+
+
+        //Heap Conversation
+        HeapConverter heapConverter = new HeapConverter(new int[] {210, 100, 23,2,5});
+       int minHeap[] = heapConverter.transform();
+       for (int i = 0; i < minHeap.length; i++){
+           System.out.print(minHeap[i] + " ");
+       }
+
     }
 }

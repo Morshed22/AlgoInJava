@@ -41,13 +41,13 @@ public class Heap {
         if(indexLeft < heapSize && heap[indexLeft] > heap[index]){
             indexLargest = index;
         }
-        if(indexRight < heapSize && heap[indexRight] > heap[index]){
+        if(indexRight < heapSize && heap[indexRight] > heap[indexLargest]){
             indexLargest = index;
         }
 
         if(index != indexLargest){
             swap(index,indexLargest);
-            fixUp(indexLargest);
+            fixDown(indexLargest);
         }
 
     }
