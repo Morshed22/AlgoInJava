@@ -6,7 +6,10 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/HashTable_DS/HashTable" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/LRU_Cashe/LRU" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Naive" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/StringSearch/StringSearch" isTestSource="false" />
     </content>
+    <content url="file://$MODULE_DIR$/src/Naive" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
