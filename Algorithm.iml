@@ -8,6 +8,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src/LRU_Cashe/LRU" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Naive" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/StringSearch/StringSearch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/DataCompression/DataCompression" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/src/RLE" />
     </content>
     <content url="file://$MODULE_DIR$/src/Naive" />
     <orderEntry type="inheritedJdk" />
